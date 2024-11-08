@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         // Load the game scene (replace "GameScene" with the name of your game scene)
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("Main Scene");
     }
 
     // Method to open options (you can implement this later)
