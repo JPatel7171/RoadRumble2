@@ -80,5 +80,8 @@ public class CarController : MonoBehaviour
         wheelCollider.GetWorldPose(out pos, out rot);
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
+
+        // Add wheel rotation based on speed
+        wheelTransform.Rotate(Vector3.right, wheelCollider.rpm * 6 * Time.deltaTime);
     }
 }
