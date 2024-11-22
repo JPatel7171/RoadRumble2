@@ -6,7 +6,7 @@ public class CountdownTimer : MonoBehaviour
 {
     public float countdownTime = 60f; // Set the countdown time in seconds
     private float currentTime;
-    public Text countdownText; // Reference to the UI Text element
+    public Text countdownText;
 
     void Start()
     {
